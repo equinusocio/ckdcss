@@ -19,6 +19,6 @@
 
           path.basename += ".min";
         }))
-        .pipe(gulp.dest(`${paths.dist}css`));
+        .pipe(gulp.dest(`${paths.dist}`));
     });
 }());
