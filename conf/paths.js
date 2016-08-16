@@ -5,7 +5,7 @@
 const infos = require('../package.json')
   , today = new Date()
   , paths =  {
-  "lib": "lib/",
+  "lib": "src/",
   "dist": "dist/",
   "scss": "lib/scss/",
   "banner": ['/*',
