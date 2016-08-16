@@ -1,7 +1,8 @@
 
 .checkbox-roll {
+  transition: all .5s cubic-bezier(0.190, 1.000, 0.515, 1.000);
+
   &:checked {
     transform: rotateX(360deg);
-    transition: all .15s linear;
   }
 }

@@ -13,7 +13,9 @@
 }
 
 .checkbox-hey {
+  will-change: transform;
+
   &:checked {
-    animation: hey 0.7s cubic-bezier(0.190, 1.000, 0.515, 1.000);
+    animation: hey 0.4s linear;
   }
 }

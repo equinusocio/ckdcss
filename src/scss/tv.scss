@@ -3,23 +3,28 @@
 
   50% {
     transform: scale(.6) rotateY(100deg) skew(45deg);
+    filter: hue-rotate(50deg) saturate(50%);
   }
 
   70% {
     transform: scale(.8) rotateY(200deg) skew(70deg);
+    filter: hue-rotate(150deg) saturate(50%);
   }
 
   90% {
     transform: scale(1) rotateY(500deg) skew(20deg);
+    filter: hue-rotate(2500deg) saturate(50%);
   }
 
   100% {
     transform: none;
+    filter: none;
   }
 }
 
 .checkbox-tv {
+
   &:checked {
-    animation: tv .3s linear;
+    animation: tv .3s cubic-bezier(0.165, 0.840, 0.440, 1.000);
   }
 }

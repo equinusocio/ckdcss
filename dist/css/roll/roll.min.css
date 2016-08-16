@@ -8,4 +8,4 @@
  * MIT license
  * Tue Aug 16 2016
  */
-.checkbox-roll:checked{-webkit-transform:rotateX(360deg);transform:rotateX(360deg);-webkit-transition:all .15s linear;transition:all .15s linear}
+.checkbox-roll{-webkit-transition:all .5s cubic-bezier(.19,1,.515,1);transition:all .5s cubic-bezier(.19,1,.515,1)}.checkbox-roll:checked{-webkit-transform:rotateX(360deg);transform:rotateX(360deg)}
