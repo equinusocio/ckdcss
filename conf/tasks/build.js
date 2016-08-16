@@ -6,7 +6,7 @@
     , colors = require('colors')
     , runSequence = require('run-sequence').use(gulp);
 
-  gulp.task('build', function buildEverything() {
+  gulp.task('build', function(cb) {
     runSequence(
       'clean',
       'sass',
@@ -17,10 +17,11 @@
       'finalize',
       function (error) {
         if (error) {
-          console.log('[build]'.bold.magenta + ' There was an issue building:\n'.bold.red + error.message);
+          console.log('[build]'.bold.magenta + ' There was an issue building Material Theme:\n'.bold.red + error.message);
         } else {
-          console.log('[build]'.bold.magenta + ' Finished successfully ✔︎'.bold.green);
+          console.log('[build]'.bold.magenta + ' ⚙  Finished successfully ✔'.bold.green);
         }
+        cb(error);
       }
     );
   });
