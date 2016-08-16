@@ -1,0 +1,40 @@
+{
+  "name": "ckd-css",
+  "version": "1.0.0",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "package.json",
+    "index.html",
+    "logo.png",
+    "bg.png",
+    "gh-pages.css",
+    "*.png",
+    "*.jpg",
+    "*.log",
+    ".gitignore",
+    "conf",
+    "demo",
+    ".sass-lint.yml",
+    "lib",
+    "gulpfile.js",
+    "*.md"
+  ],
+  "description": "Formally checkbox, a tiny set of animations for your checkboxes.",
+  "authors": [
+    "Mattia Astorino"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/equinusocio/ckdcss",
+  "keywords": [
+    "checkbox",
+    "css",
+    "animations",
+    "animated",
+    "checkboxes",
+    "checked",
+    "input",
+    "css",
+    "css3"
+  ]
+}

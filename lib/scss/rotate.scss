@@ -1,0 +1,7 @@
+
+.checkbox-rotate {
+  &:checked {
+    transform: rotate(360deg);
+    transition: all .2s linear;
+  }
+}

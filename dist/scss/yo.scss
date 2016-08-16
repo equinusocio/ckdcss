@@ -1,0 +1,7 @@
+.checkbox-yo {
+  transition: all .15s linear;
+
+  &:checked {
+    transform: rotate(-45deg) translateZ(0);
+  }
+}

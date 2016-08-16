@@ -1,0 +1,7 @@
+
+.checkbox-splash {
+  &:active{
+    transform: scale(2);
+    transition: all .15s linear;
+  }
+}

@@ -1,0 +1,25 @@
+
+@keyframes jump {
+
+  50% {
+    transform: scale(.6) translateY(-10px);
+  }
+
+  70% {
+    transform: scale(.8) translateY(-5px);
+  }
+
+  90% {
+    transform: scale(1) translateY(0);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.checkbox-jump {
+  &:checked {
+    animation: jump .35s linear;
+  }
+}

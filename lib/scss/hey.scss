@@ -1,0 +1,23 @@
+
+@keyframes hey {
+
+  50% {
+    transform: scale(1.5);
+    filter: blur(20px);
+  }
+
+  90% {
+    filter: blur(40px);
+  }
+
+  100% {
+    transform: none;
+    filter: none;
+  }
+}
+
+.checkbox-hey {
+  &:checked {
+    animation: hey .8s linear;
+  }
+}

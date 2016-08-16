@@ -1,0 +1,25 @@
+
+@keyframes tv {
+
+  50% {
+    transform: scale(.6) rotateY(100deg) skew(45deg);
+  }
+
+  70% {
+    transform: scale(.8) rotateY(200deg) skew(70deg);
+  }
+
+  90% {
+    transform: scale(1) rotateY(500deg) skew(20deg);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.checkbox-tv {
+  &:checked {
+    animation: tv .3s linear;
+  }
+}
