@@ -8,4 +8,4 @@
  * MIT license
  * Tue Aug 16 2016
  */
-@-webkit-keyframes hey{99%{-webkit-transform:scale(1.5);transform:scale(1.5);-webkit-filter:blur(20px);filter:blur(20px)}100%{-webkit-transform:none;transform:none;-webkit-filter:none;filter:none}}@keyframes hey{99%{-webkit-transform:scale(1.5);transform:scale(1.5);-webkit-filter:blur(20px);filter:blur(20px)}100%{-webkit-transform:none;transform:none;-webkit-filter:none;filter:none}}.checkbox-hey:checked{-webkit-animation:hey 1s cubic-bezier(.19,1,.515,1);animation:hey 1s cubic-bezier(.19,1,.515,1)}
+@-webkit-keyframes hey{99%{-webkit-transform:scale(1.5);transform:scale(1.5);-webkit-filter:blur(20px);filter:blur(20px)}100%{-webkit-transform:none;transform:none;-webkit-filter:none;filter:none}}@keyframes hey{99%{-webkit-transform:scale(1.5);transform:scale(1.5);-webkit-filter:blur(20px);filter:blur(20px)}100%{-webkit-transform:none;transform:none;-webkit-filter:none;filter:none}}.checkbox-hey:checked{-webkit-animation:hey .7s cubic-bezier(.19,1,.515,1);animation:hey .7s cubic-bezier(.19,1,.515,1)}
