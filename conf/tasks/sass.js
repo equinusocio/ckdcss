@@ -8,7 +8,7 @@
     , autprefixer = require('gulp-autoprefixer');
 
   gulp.task('sass', function sassify() {
-    return gulp.src(`${paths.lib}scss/!(mixins).scss`)
+    return gulp.src(`${paths.lib}scss/**`)
     .pipe(gulpSass())
     .pipe(gulp.dest(`${paths.dist}`));
   });

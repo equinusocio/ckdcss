@@ -13,7 +13,7 @@
         .pipe(minify())
         .pipe(rename(function renameThem(path) {
 
-          if (path.basename !== 'checkbox') {
+          if (path.basename !== 'ckd-css') {
             path.dirname = path.basename;
           }
 
