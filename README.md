@@ -7,17 +7,15 @@
 
 
 ## Installation
-You can install **ckdcss** as dependency by using [Npm](https://www.npmjs.com/package/ckd-css) or [Bower](https://bower.io)
+You can install **ckd-css** as dependency by using [Npm](https://www.npmjs.com/package/ckd-css) or [Bower](https://bower.io)
 
 ```
 npm install ckd-css
 bower install ckd-css
 ```
 
-Then link the `css` file in your page:
-```
-bower_components/ckd-css/dist/ckd-css.min.css
-```
+Then link the `css` file from `node_modules` or `bower_components` in your html page `ckd-css/dist/ckd-css.min.css`
+
 
 ## Usage
 
