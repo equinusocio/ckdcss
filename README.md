@@ -8,6 +8,8 @@
 
 
 ## Installation
+
+[![Join the chat at https://gitter.im/equinusocio/ckd-css](https://badges.gitter.im/equinusocio/ckd-css.svg)](https://gitter.im/equinusocio/ckd-css?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 You can install **ckd-css** as dependency by using [Npm](https://www.npmjs.com/package/ckd-css) or [Bower](https://bower.io)
 
 ```
