@@ -1,4 +1,4 @@
-<img width="536px" src="https://cloud.githubusercontent.com/assets/10454741/18340843/8a8b0e18-75a7-11e6-99f2-e8f805070c33.jpg">
+<img width="406px" src="https://cloud.githubusercontent.com/assets/10454741/18340843/8a8b0e18-75a7-11e6-99f2-e8f805070c33.jpg">
 
 <img width="24px" alt="Google Chrome" src="https://cdn.rawgit.com/alrra/browser-logos/master/chrome/chrome_48x48.png">
 <img width="24px" alt="Firefox" src="https://cdn.rawgit.com/alrra/browser-logos/master/firefox/firefox_48x48.png">
