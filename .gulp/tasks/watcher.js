@@ -8,6 +8,6 @@
     , watch = require('gulp-watch');
 
   gulp.task('watch', ['build'], function() {
-    gulp.watch(paths.lib + '*', ['build']);
+    gulp.watch(paths.lib + '**', ['build']);
   });
 }());
