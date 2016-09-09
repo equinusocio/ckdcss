@@ -1,0 +1,23 @@
+@keyframes zoom {
+  50% {
+    transform: scale(2);
+    filter: blur(5px);
+  }
+
+  80% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: none;
+    filter: none;
+    opacity: 1;
+  }
+}
+
+.ckd-zoom {
+  &:checked {
+    animation: zoom 0.4s ease-out;
+  }
+}
