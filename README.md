@@ -4,7 +4,8 @@
 <img width="24px" alt="Firefox" src="https://cdn.rawgit.com/alrra/browser-logos/master/firefox/firefox_48x48.png">
 <img width="24px" alt="Safari" src="https://cdn.rawgit.com/alrra/browser-logos/master/safari/safari_48x48.png">
 <img width="24px" alt="Safari" src="https://cdn.rawgit.com/alrra/browser-logos/master/edge/edge_48x48.png"><sup>💩</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![Join the chat at https://gitter.im/equinusocio/ckd-css](https://badges.gitter.im/equinusocio/ckd-css.svg)](https://gitter.im/equinusocio/ckd-css?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/equinusocio/ckd-css](https://badges.gitter.im/equinusocio/ckd-css.svg?style=flat-square)](https://gitter.im/equinusocio/ckd-css?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Package Quality](http://npm.packagequality.com/shield/ckd-css.svg?colorB=80d4cd&style=flat-square)](http://packagequality.com/#?package=ckd-css)
 
 
 ## Installation
