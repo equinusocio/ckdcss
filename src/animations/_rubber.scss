@@ -29,6 +29,12 @@
 }
 
 .ckd-rubber {
+transition: all 100ms;
+
+  &:active {
+    transform: scale(0.6, 1.2);
+  }
+
   &:checked {
     animation: rubber 0.5s;
   }
