@@ -7,7 +7,7 @@
     , colors = require('colors')
     , watch = require('gulp-watch');
 
-  gulp.task('start', function() {
-    gulp.watch(paths.lib + 'scss/*', ['build']);
+  gulp.task('watch', ['build'], function() {
+    gulp.watch(paths.lib + '*', ['build']);
   });
 }());
