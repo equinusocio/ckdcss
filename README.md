@@ -7,6 +7,8 @@
 [![Join the chat at https://gitter.im/equinusocio/ckd-css](https://badges.gitter.im/equinusocio/ckd-css.svg?style=flat-square)](https://gitter.im/equinusocio/ckd-css?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Package Quality](http://npm.packagequality.com/shield/ckd-css.svg?colorB=80d4cd&style=flat-square)](http://packagequality.com/#?package=ckd-css)
 [![GitHub stars](https://img.shields.io/github/stars/equinusocio/ckdcss.svg?colorB=80d4cd&style=flat-square)](https://github.com/equinusocio/ckdcss/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/equinusocio/ckdcss.svg?colorB=80d4cd&style=flat-square)](https://github.com/equinusocio/ckdcss/issues)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/equinusocio/ckdcss.svg?style=social?style=flat-square)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
 
 
 ## Why?
