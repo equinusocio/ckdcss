@@ -1,0 +1,16 @@
+@keyframes smokin {
+  from {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.ckd-smokin {
+  &:checked {
+    animation: smokin 0.5s;
+  }
+}

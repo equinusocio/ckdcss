@@ -7,7 +7,7 @@ const infos = require('../package.json')
   , paths =  {
   "lib": "src/",
   "dist": "dist/",
-  "scss": "lib/scss/",
+  "scss": "src/",
   "banner": ['/*',
       ' * ' + infos.name,
       ' * v' + infos.version,
