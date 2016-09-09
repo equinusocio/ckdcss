@@ -24,3 +24,25 @@ Build the library file inside the `./dist` folder.
 ```bash
 gulp build
 ```
+
+
+## 4. Release
+When the development process is finished you are ready to prepare the deploy. First you have to bump the release version by running one of these:
+
+**PATCH RELEASE**
+```gulp bump```
+
+
+**MINOR RELEASE**
+```gulp bump --minor```
+
+
+**MAJOR RELEASE**
+```gulp bump --major```
+
+Then you have to generate the changelog by running this command:
+
+```gulp changelog```
+
+
+Yeah! You are ready to push and release. Use the latest changelog inside the github release description.
