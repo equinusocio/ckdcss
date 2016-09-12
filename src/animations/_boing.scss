@@ -1,0 +1,30 @@
+
+@keyframes boing {
+
+  0% {
+
+
+    transform: translateY(3px) scaleY(.8);
+  }
+
+  50% {
+    transform: translateY(-10px);
+
+  }
+
+  90% {
+    opacity: .7;
+    transform: translateY(2px) scale(1.5, 0.5);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.ckd-boing {
+  &:checked {
+    animation: boing .2s ease-in-out;
+    animation-iteration-count: 3;
+  }
+}

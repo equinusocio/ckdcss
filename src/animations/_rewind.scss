@@ -1,0 +1,24 @@
+
+@keyframes rewind {
+
+  0% {
+
+    transform: scale(.3) translateX(7px);
+  }
+
+  50% {
+    transform: skewX(-30deg) scale(.8) rotate(0deg) translateX(-7px);
+    filter: blur(0.5px);
+  }
+
+  90% {
+    transform: skewX(30deg) rotate(0deg);
+  }
+}
+
+.ckd-rewind {
+  &:checked {
+    animation: rewind .25s cubic-bezier(0.030, 0.610, 0.170, 0.970);
+    animation-iteration-count: 1;
+  }
+}
