@@ -9,7 +9,8 @@
   gulp.task('changelog', function () {
     return gulp.src('./CHANGELOG.md')
       .pipe(conventionalChangelog({
-        preset: 'angular'
+        preset: 'angular',
+        releaseCount: 0
       }))
       .pipe(gulp.dest('./'));
   });
