@@ -1,6 +1,7 @@
 {
   "name": "ckd-css",
   "version": "1.2.0",
+  "main": "dist/ckd-css.min.css",
   "ignore": [
     "node_modules",
     "bower_components",
