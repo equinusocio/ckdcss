@@ -1,7 +1,7 @@
 {
   "name": "ckd-css",
   "version": "1.2.0",
-  "description": "Formally checkbox, a tiny set of animations for your checkboxes.",
+  "description": "A tiny set of micro interactions for your checkboxes.",
   "main": "gulpfile.js",
   "keywords": [
     "checkbox",
