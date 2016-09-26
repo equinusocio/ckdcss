@@ -9,6 +9,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/equinusocio/ckdcss.svg?colorB=80d4cd&style=flat-square)](https://github.com/equinusocio/ckdcss/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/equinusocio/ckdcss.svg?colorB=80d4cd&style=flat-square)](https://github.com/equinusocio/ckdcss/issues)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/equinusocio/ckdcss.svg?style=social?style=flat-square)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
+[![Beerpay](https://beerpay.io/equinusocio/ckdcss/badge.svg?style=flat-square)](https://beerpay.io/equinusocio/ckdcss)
 
 
 ## Why?
