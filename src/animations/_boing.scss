@@ -2,14 +2,11 @@
 @keyframes boing {
 
   0% {
-
-
     transform: translateY(3px) scaleY(.8);
   }
 
   50% {
     transform: translateY(-10px);
-
   }
 
   90% {
@@ -23,6 +20,7 @@
 }
 
 .ckd-boing {
+  will-change: transform;
   &:checked {
     animation: boing .2s ease-in-out;
     animation-iteration-count: 3;

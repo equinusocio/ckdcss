@@ -19,6 +19,8 @@
 }
 
 .ckd-jump {
+  will-change: transform;
+
   &:checked {
     animation: jump .35s linear;
   }
