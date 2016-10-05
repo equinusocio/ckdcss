@@ -30,11 +30,16 @@
 
 .ckd-rubber {
 
-  &:active {
+  &:checked {
+    animation: rubber 0.5s;
+    animation-direction: alternate;
+  }
+
+  &:active:not(:checked) {
     transform: scale(0.6, 1.2);
   }
 
-  &:checked {
-    animation: rubber 0.5s;
+  &:active:checked {
+    transform: scale(1.2, 0.6);
   }
 }
