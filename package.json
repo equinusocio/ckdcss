@@ -15,6 +15,15 @@
   "files": [
     "dist/"
   ],
+  "npmName": "ckd-css",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/equinusocio/ckdcss.git"
