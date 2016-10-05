@@ -7,11 +7,14 @@
     , conventionalChangelog = require('gulp-conventional-changelog');
 
   gulp.task('changelog', function () {
-    return gulp.src('./CHANGELOG.md')
+    return gulp.src('CHANGELOG.md')
       .pipe(conventionalChangelog({
+        // conventional-changelog options go here
         preset: 'angular',
         releaseCount: 0
       }))
       .pipe(gulp.dest('./'));
   });
 }());
+
+
