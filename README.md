@@ -24,6 +24,22 @@
 Source: [The Next Web](http://thenextweb.com/dd/2015/08/17/why-micro-interactions-are-the-secret-to-great-design/)
 
 ## Installation
+
+### From CDN
+
+If you want to use the library as-it just link the css from the CDN.
+
+```html
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/ckd-css/latest/ckd-css.min.css">
+```
+
+You can use a specific library version by replacing (inside the url) `latest` with the desired version:
+
+```html
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/ckd-css/1.2.0/ckd-css.min.css">
+```
+
+### As dependencies
 You can install **ckd-css** as dependency by using [Npm](https://www.npmjs.com/package/ckd-css) or [Bower](https://bower.io). Check the [DEMO PAGE](http://equinusocio.github.io/ckdcss )
 
 ```
