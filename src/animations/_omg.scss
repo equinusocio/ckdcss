@@ -31,6 +31,8 @@
 }
 
 .ckd-omg {
+  will-change: transform;
+
   &:checked {
     animation: omg .5s linear;
   }

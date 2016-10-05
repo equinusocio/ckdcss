@@ -17,6 +17,8 @@
 }
 
 .ckd-zoom {
+  will-change: transform;
+
   &:checked {
     animation: zoom 0.4s cubic-bezier(0.075, 0.820, 0.765, 1.015);
   }

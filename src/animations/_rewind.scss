@@ -17,6 +17,8 @@
 }
 
 .ckd-rewind {
+  will-change: transform;
+
   &:checked {
     animation: rewind .25s cubic-bezier(0.030, 0.610, 0.170, 0.970);
     animation-iteration-count: 1;

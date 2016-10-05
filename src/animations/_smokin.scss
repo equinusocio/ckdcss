@@ -10,6 +10,8 @@
 }
 
 .ckd-smokin {
+  will-change: transform;
+
   &:checked {
     animation: smokin 0.5s;
   }

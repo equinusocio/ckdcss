@@ -19,6 +19,8 @@
 }
 
 .ckd-inout {
+  will-change: transform;
+
   &:checked {
     animation: inout .5s linear;
   }
