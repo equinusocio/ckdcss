@@ -3,11 +3,11 @@
 
   0% {
 
-    transform: scale(.3) translateX(7px);
+    transform: scale(0.3) translateX(7px);
   }
 
   50% {
-    transform: skewX(-30deg) scale(.8) rotate(0deg) translateX(-7px);
+    transform: skewX(-30deg) scale(0.8) rotate(0deg) translateX(-7px);
     filter: blur(0.5px);
   }
 
@@ -20,7 +20,7 @@
   will-change: transform;
 
   &:checked {
-    animation: rewind .25s cubic-bezier(0.030, 0.610, 0.170, 0.970);
+    animation: rewind 0.25s cubic-bezier(0.03, 0.61, 0.17, 0.97);
     animation-iteration-count: 1;
   }
 }
