@@ -1,13 +1,13 @@
-/*global require*/
-(function gulpTask() {
-  'use strict';
+'use strict';
 
-  const gulp = require('gulp')
-    , paths = require('../paths')
-    , rename = require('gulp-rename');
+/*
+ * > Copy
+ */
 
-  gulp.task('copy', function copySrc() {
-    return gulp.src([`${paths.scss}*`])
-    .pipe(gulp.dest(`${paths.dist}scss`));
-  });
-}());
+import gulp from 'gulp';
+import paths from '../paths';
+
+gulp.task('copy', function copySrc() {
+  return gulp.src([`${paths.scss}*`])
+  .pipe(gulp.dest(`${paths.dist}scss`));
+});
