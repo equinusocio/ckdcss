@@ -5,7 +5,7 @@ const today = new Date()
 , paths = {
   'lib': 'src/',
   'dist': 'dist/',
-  'scss': 'dist/',
+  'scss': 'src/',
   'banner': ['/*',
       ' * ' + infos.name,
       ' * v' + infos.version,
