@@ -40,7 +40,7 @@ You can use a specific library version by replacing (inside the url) `latest` wi
 ```
 
 ### As dependencies
-You can install **ckd-css** as dependency by using [Npm](https://www.npmjs.com/package/ckd-css) or [Bower](https://bower.io). Check the [DEMO PAGE](http://equinusocio.github.io/ckdcss )
+You can install **ckd-css** as dependency by using [Npm](https://www.npmjs.com/package/ckd-css) or [Bower](https://bower.io).
 
 ```
 npm install ckd-css
@@ -56,3 +56,5 @@ Just add your favourite animation class to the checkbox
 ```html
 <input type="checkbox" class="ckd-splash" />
 ```
+
+Check the [DEMO PAGE](http://equinusocio.github.io/ckdcss )
