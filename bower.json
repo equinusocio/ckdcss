@@ -18,7 +18,7 @@
     "demo",
     ".sass-lint.yml",
     "lib",
-    "gulpfile.js",
+    "gulpfile.babel.js",
     "*.md",
     "demo.html"
   ],
