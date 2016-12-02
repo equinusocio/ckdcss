@@ -4,7 +4,6 @@
 <img width="24px" alt="Firefox" src="https://cdn.rawgit.com/alrra/browser-logos/master/firefox/firefox_48x48.png">
 <img width="24px" alt="Safari" src="https://cdn.rawgit.com/alrra/browser-logos/master/safari/safari_48x48.png" title="💩">
 <img width="24px" alt="Microsoft Edge" src="https://cdn.rawgit.com/alrra/browser-logos/master/edge/edge_48x48.png" title="💩">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
 <a href="https://travis-ci.org/equinusocio/ckdcss"><img alt="Berrpay" src="https://travis-ci.org/equinusocio/ckdcss.svg?branch=master"></a>
 <a href="http://packagequality.com/#?package=ckd-css"><img alt="Issues" src="http://npm.packagequality.com/shield/ckd-css.svg?colorB=80d4cd&style=flat-square"></a>
 <a href="https://github.com/equinusocio/ckdcss/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/equinusocio/ckdcss.svg?colorB=80d4cd&style=flat-square"></a>
