@@ -1,6 +1,6 @@
 {
   "name": "ckd-css",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "main": "dist/ckd-css.min.css",
   "ignore": [
     "node_modules",
