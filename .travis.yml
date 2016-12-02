@@ -13,4 +13,4 @@ addons:
 before_script:
   - npm install -g gulp-cli
   - npm i
-script: gulp
+script: gulp build
