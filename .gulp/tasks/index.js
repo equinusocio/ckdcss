@@ -12,4 +12,4 @@ import './sass';
 import './watcher';
 
 // export default script
-export default ['build'];
+export default ['build','watch'];
