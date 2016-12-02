@@ -1,14 +1,15 @@
-/*global require*/
-(function gulpTask() {
-  'use strict';
+'use strict';
 
-  const gulp = require('gulp')
-    , paths = require('../paths')
-    , header = require('gulp-header');
+/*
+ * > Banner
+ */
 
-  gulp.task('banner', function bannerify() {
-    return gulp.src(`${paths.dist}**/*.min.css`)
-      .pipe(header(`${paths.banner}`))
-      .pipe(gulp.dest(`${paths.dist}`))
-  });
-}());
+import gulp from 'gulp';
+import paths from '../paths';
+import header from 'gulp-header';
+
+gulp.task('banner', function bannerify() {
+  return gulp.src(`${paths.dist}**/*.min.css`)
+    .pipe(header(`${paths.banner}`))
+    .pipe(gulp.dest(`${paths.dist}`))
+});

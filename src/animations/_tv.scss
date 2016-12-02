@@ -2,12 +2,12 @@
 @keyframes tv {
 
   50% {
-    transform: scale(.6) rotateY(100deg) skew(45deg);
+    transform: scale(0.6) rotateY(100deg) skew(45deg);
     filter: hue-rotate(50deg) saturate(50%);
   }
 
   70% {
-    transform: scale(.8) rotateY(200deg) skew(70deg);
+    transform: scale(0.8) rotateY(200deg) skew(70deg);
     filter: hue-rotate(150deg) saturate(50%);
   }
 
@@ -26,6 +26,6 @@
   will-change: transform;
 
   &:checked {
-    animation: tv .3s cubic-bezier(0.165, 0.840, 0.440, 1.000);
+    animation: tv 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
 }

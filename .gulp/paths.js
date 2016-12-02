@@ -1,14 +1,12 @@
-/*global require,module*/
-(function pathConfiguration(require, module) {
-  'use strict';
+import infos from '../package.json';
 
-const infos = require('../package.json')
-  , today = new Date()
-  , paths =  {
-  "lib": "src/",
-  "dist": "dist/",
-  "scss": "src/",
-  "banner": ['/*',
+
+const today = new Date()
+, paths = {
+  'lib': 'src/',
+  'dist': 'dist/',
+  'scss': 'src/',
+  'banner': ['/*',
       ' * ' + infos.name,
       ' * v' + infos.version,
       ' * ',
@@ -21,5 +19,4 @@ const infos = require('../package.json')
       ''].join('\n')
 };
 
-module.exports = paths;
-}(require, module));
+export default paths;

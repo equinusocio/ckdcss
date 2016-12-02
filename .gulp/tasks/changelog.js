@@ -1,20 +1,19 @@
-/*global require*/
-(function gulpTask() {
-  'use strict';
+'use strict';
 
-  const gulp = require('gulp')
-    , paths = require('../paths')
-    , conventionalChangelog = require('gulp-conventional-changelog');
+/*
+ * > Changelog
+ */
 
-  gulp.task('changelog', function () {
-    return gulp.src('CHANGELOG.md')
-      .pipe(conventionalChangelog({
-        // conventional-changelog options go here
-        preset: 'angular',
-        releaseCount: 0
-      }))
-      .pipe(gulp.dest('./'));
-  });
-}());
+import gulp from 'gulp';
+import paths from '../paths';
+import conventionalChangelog from 'gulp-conventional-changelog';
 
 
+gulp.task('changelog', () => {
+  return gulp.src('CHANGELOG.md')
+    .pipe(conventionalChangelog({
+      preset: 'angular',
+      releaseCount: 0
+    }))
+    .pipe(gulp.dest('./'));
+});

@@ -1,6 +1,6 @@
 
 .ckd-roll {
-  transition: all .5s cubic-bezier(0.190, 1.000, 0.515, 1.000);
+  transition: all 0.5s cubic-bezier(0.19, 1, 0.515, 1);
 
   &:checked {
     transform: rotateX(360deg);

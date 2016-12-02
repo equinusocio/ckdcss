@@ -1,8 +1,6 @@
-
 @keyframes boing {
-
   0% {
-    transform: translateY(3px) scaleY(.8);
+    transform: translateY(3px) scaleY(0.8);
   }
 
   50% {
@@ -10,7 +8,7 @@
   }
 
   90% {
-    opacity: .7;
+    opacity: 0.7;
     transform: translateY(2px) scale(1.5, 0.5);
   }
 
@@ -21,8 +19,9 @@
 
 .ckd-boing {
   will-change: transform;
+
   &:checked {
-    animation: boing .2s ease-in-out;
+    animation: boing 0.2s ease-in-out;
     animation-iteration-count: 3;
   }
 }
