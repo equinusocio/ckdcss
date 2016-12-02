@@ -1,15 +1,15 @@
 <img width="406px" src="https://cloud.githubusercontent.com/assets/10454741/18340843/8a8b0e18-75a7-11e6-99f2-e8f805070c33.jpg">
-
+<br/><br/>
 <img width="24px" alt="Google Chrome" src="https://cdn.rawgit.com/alrra/browser-logos/master/chrome/chrome_48x48.png">
 <img width="24px" alt="Firefox" src="https://cdn.rawgit.com/alrra/browser-logos/master/firefox/firefox_48x48.png">
-<img width="24px" alt="Safari" src="https://cdn.rawgit.com/alrra/browser-logos/master/safari/safari_48x48.png">
-<img width="24px" alt="Safari" src="https://cdn.rawgit.com/alrra/browser-logos/master/edge/edge_48x48.png" title="💩">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![Join the chat at https://gitter.im/equinusocio/ckd-css](https://badges.gitter.im/equinusocio/ckd-css.svg?style=flat-square)](https://gitter.im/equinusocio/ckd-css?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Package Quality](http://npm.packagequality.com/shield/ckd-css.svg?colorB=80d4cd&style=flat-square)](http://packagequality.com/#?package=ckd-css)
-[![GitHub stars](https://img.shields.io/github/stars/equinusocio/ckdcss.svg?colorB=80d4cd&style=flat-square)](https://github.com/equinusocio/ckdcss/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/equinusocio/ckdcss.svg?colorB=80d4cd&style=flat-square)](https://github.com/equinusocio/ckdcss/issues)
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/equinusocio/ckdcss.svg?style=social?style=flat-square)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
-[![Beerpay](https://beerpay.io/equinusocio/ckdcss/badge.svg?style=flat-square)](https://beerpay.io/equinusocio/ckdcss)
+<img width="24px" alt="Safari" src="https://cdn.rawgit.com/alrra/browser-logos/master/safari/safari_48x48.png" title="💩">
+<img width="24px" alt="Microsoft Edge" src="https://cdn.rawgit.com/alrra/browser-logos/master/edge/edge_48x48.png" title="💩">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://travis-ci.org/equinusocio/ckdcss"><img alt="Berrpay" src="https://travis-ci.org/equinusocio/ckdcss.svg?branch=master"></a>
+<a href="http://packagequality.com/#?package=ckd-css"><img alt="Issues" src="http://npm.packagequality.com/shield/ckd-css.svg?colorB=80d4cd&style=flat-square"></a>
+<a href="https://github.com/equinusocio/ckdcss/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/equinusocio/ckdcss.svg?colorB=80d4cd&style=flat-square"></a>
+<a href="https://github.com/equinusocio/ckdcss/issues"><img alt="Usage" src="https://img.shields.io/github/issues/equinusocio/ckdcss.svg?colorB=80d4cd&style=flat-square"></a>
+<a href="https://beerpay.io/equinusocio/ckdcss"><img alt="Usage" src="https://beerpay.io/equinusocio/ckdcss/badge.svg?style=flat-square"></a>
 
 
 ## Why?
