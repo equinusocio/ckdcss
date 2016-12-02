@@ -22,7 +22,7 @@
 
   90% {
 
-    transform: scale(.4);
+    transform: scale(0.4);
   }
 
   100% {
@@ -34,6 +34,6 @@
   will-change: transform;
 
   &:checked {
-    animation: omg .5s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: omg 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   }
 }

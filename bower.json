@@ -1,6 +1,6 @@
 {
   "name": "ckd-css",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "main": "dist/ckd-css.min.css",
   "ignore": [
     "node_modules",
@@ -18,11 +18,11 @@
     "demo",
     ".sass-lint.yml",
     "lib",
-    "gulpfile.js",
+    "gulpfile.babel.js",
     "*.md",
     "demo.html"
   ],
-  "description": "Formally checkbox, a tiny set of animations for your checkboxes.",
+  "description": "A tiny set of micro interactions for your checkboxes.",
   "authors": [
     "Mattia Astorino"
   ],

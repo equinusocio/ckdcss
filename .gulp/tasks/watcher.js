@@ -1,13 +1,16 @@
-/*global require*/
-(function gulpTask() {
-  'use strict';
+'use strict';
 
-  const gulp = require('gulp')
-    , paths = require('../paths')
-    , colors = require('colors')
-    , watch = require('gulp-watch');
+/*
+ * > Watch
+ */
 
-  gulp.task('watch', ['build'], function() {
-    gulp.watch(paths.lib + '**', ['build']);
-  });
-}());
+import gulp from 'gulp';
+import paths from '../paths';
+import colors from 'colors';
+import watch from 'gulp-watch';
+
+
+
+gulp.task('watch', ['build'], () => {
+  gulp.watch(paths.lib + '**', ['build']);
+});

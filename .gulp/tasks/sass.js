@@ -1,17 +1,19 @@
-/*global require*/
-(function gulpTask() {
-  'use strict';
+'use strict';
 
-  const gulp = require('gulp')
-    , paths = require('../paths')
-    , gulpSass = require('gulp-sass')
-    , sassGlob = require('gulp-sass-glob')
-    , autprefixer = require('gulp-autoprefixer');
+/*
+ * > Sass
+ */
 
-  gulp.task('sass', function sassify() {
-    return gulp.src(`${paths.lib}ckd-css.scss`)
-    .pipe(sassGlob())
-    .pipe(gulpSass())
-    .pipe(gulp.dest(`${paths.dist}`));
-  });
-}());
+import gulp from 'gulp';
+import paths from '../paths';
+import gulpSass from 'gulp-sass';
+import sassGlob from 'gulp-sass-glob';
+import autprefixer from 'gulp-autoprefixer';
+
+
+gulp.task('sass', function sassify() {
+  return gulp.src(`${paths.lib}ckd-css.scss`)
+  .pipe(sassGlob())
+  .pipe(gulpSass())
+  .pipe(gulp.dest(`${paths.dist}`));
+});

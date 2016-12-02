@@ -1,29 +1,31 @@
-/*global require*/
-(function gulpTask() {
-  'use strict';
+'use strict';
 
-  const gulp = require('gulp')
-    , colors = require('colors')
-    , runSequence = require('run-sequence').use(gulp);
+/*
+ * > Build
+ */
 
-  gulp.task('build', function(cb) {
-    console.log('\n[build]'.bold.magenta + ' ⚙  Start bulding \n'.bold.blue);
-    runSequence(
-      'clean',
-      'sass',
-      'autoprefixer',
-      'minify',
-      'banner',
-      //'copy',
-      'finalize',
-      function (error) {
-        if (error) {
-          console.log('\n[build]'.bold.magenta + ' There was an issue building Material Theme:\n'.bold.red + error.message + '\n');
-        } else {
-          console.log('\n[build]'.bold.magenta + ' ✔  Build finished successfully \n'.bold.green);
-        }
-        cb(error);
+import gulp from 'gulp';
+import colors from 'colors';
+import runSequence from 'run-sequence';
+
+
+gulp.task('build', (cb) => {
+  console.log('\n[build]'.bold.magenta + ' ⚙  Start bulding \n'.bold.blue);
+  runSequence(
+    'clean',
+    'sass',
+    'autoprefixer',
+    'minify',
+    'banner',
+    //'copy',
+    'finalize',
+    (error) => {
+      if (error) {
+        console.log('\n[build]'.bold.magenta + ' There was an issue building Material Theme:\n'.bold.red + error.message + '\n');
+      } else {
+        console.log('\n[build]'.bold.magenta + ' ✔  Build finished successfully \n'.bold.green);
       }
-    );
-  });
-}());
+      cb(error);
+    }
+  );
+});

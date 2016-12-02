@@ -3,7 +3,7 @@
 <img width="24px" alt="Google Chrome" src="https://cdn.rawgit.com/alrra/browser-logos/master/chrome/chrome_48x48.png">
 <img width="24px" alt="Firefox" src="https://cdn.rawgit.com/alrra/browser-logos/master/firefox/firefox_48x48.png">
 <img width="24px" alt="Safari" src="https://cdn.rawgit.com/alrra/browser-logos/master/safari/safari_48x48.png">
-<img width="24px" alt="Safari" src="https://cdn.rawgit.com/alrra/browser-logos/master/edge/edge_48x48.png"><sup>💩</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="24px" alt="Safari" src="https://cdn.rawgit.com/alrra/browser-logos/master/edge/edge_48x48.png" title="💩">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![Join the chat at https://gitter.im/equinusocio/ckd-css](https://badges.gitter.im/equinusocio/ckd-css.svg?style=flat-square)](https://gitter.im/equinusocio/ckd-css?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Package Quality](http://npm.packagequality.com/shield/ckd-css.svg?colorB=80d4cd&style=flat-square)](http://packagequality.com/#?package=ckd-css)
 [![GitHub stars](https://img.shields.io/github/stars/equinusocio/ckdcss.svg?colorB=80d4cd&style=flat-square)](https://github.com/equinusocio/ckdcss/stargazers)
@@ -40,7 +40,7 @@ You can use a specific library version by replacing (inside the url) `latest` wi
 ```
 
 ### As dependencies
-You can install **ckd-css** as dependency by using [Npm](https://www.npmjs.com/package/ckd-css) or [Bower](https://bower.io). Check the [DEMO PAGE](http://equinusocio.github.io/ckdcss )
+You can install **ckd-css** as dependency by using [Npm](https://www.npmjs.com/package/ckd-css) or [Bower](https://bower.io).
 
 ```
 npm install ckd-css
@@ -56,3 +56,5 @@ Just add your favourite animation class to the checkbox
 ```html
 <input type="checkbox" class="ckd-splash" />
 ```
+
+Check the [DEMO PAGE](http://equinusocio.github.io/ckdcss )

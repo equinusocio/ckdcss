@@ -2,11 +2,11 @@
 @keyframes jump {
 
   50% {
-    transform: scale(.6) translateY(-10px);
+    transform: scale(0.6) translateY(-10px);
   }
 
   70% {
-    transform: scale(.8) translateY(-5px);
+    transform: scale(0.8) translateY(-5px);
   }
 
   90% {
@@ -22,6 +22,6 @@
   will-change: transform;
 
   &:checked {
-    animation: jump .35s linear;
+    animation: jump 0.35s linear;
   }
 }
