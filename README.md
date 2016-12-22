@@ -9,6 +9,7 @@
 <a href="https://github.com/equinusocio/ckdcss/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/equinusocio/ckdcss.svg?colorB=80d4cd&style=flat-square"></a>
 <a href="https://github.com/equinusocio/ckdcss/issues"><img alt="Usage" src="https://img.shields.io/github/issues/equinusocio/ckdcss.svg?colorB=80d4cd&style=flat-square"></a>
 <a href="https://beerpay.io/equinusocio/ckdcss"><img alt="Usage" src="https://beerpay.io/equinusocio/ckdcss/badge.svg?style=flat-square"></a>
+<a href="https://www.codacy.com/app/astorino-design/ckdcss?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=equinusocio/ckdcss&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/7a8522ef1e8f43baaeb5c5d4bc9d29ac"/></a>
 
 
 ## Why?
