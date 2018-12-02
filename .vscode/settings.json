@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "_base.config": "postcss",
+    "_variables.config": "scss"
+  }
+}

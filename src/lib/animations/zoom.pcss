@@ -1,8 +1,9 @@
-@import '../../abstracts/_base.pcss';
+@import '../../configs/_base.config';
+@import '../../configs/_variables.config';
 
 [data-ckd='zoom'] {
   &:checked {
-    animation: zoom 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: zoom 0.4s $standard-curve;
   }
 }
 
