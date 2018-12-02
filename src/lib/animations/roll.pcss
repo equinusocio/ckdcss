@@ -1,0 +1,11 @@
+@import '../../configs/_variables.config';
+@import '../../configs/_base.config';
+
+[data-ckd='roll'] {
+  transition: transform 0.5s $decelerate-curve;
+
+  &:checked,
+  &[aria-checked='true'] {
+    transform: rotateX(1turn);
+  }
+}
