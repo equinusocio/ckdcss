@@ -1,8 +1,9 @@
+@import '../../configs/_variables.config';
 @import '../../configs/_base.config';
 
 [data-ckd='tv'] {
   &:checked {
-    animation: tv 0.3s cubic-bezier(0, 0, 0.2, 1);
+    animation: tv 0.3s $decelerate-curve;
   }
 }
 
