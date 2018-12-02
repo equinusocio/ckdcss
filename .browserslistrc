@@ -1,0 +1,5 @@
+last 2 major versions
+not ie <= 11
+not op_mini all
+not dead
+> 0.5%

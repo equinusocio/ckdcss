@@ -1,10 +1,18 @@
+@import '../../abstracts/_base.pcss';
+
+[data-ckd='zoom'] {
+  &:checked {
+    animation: zoom 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
 @keyframes zoom {
   50% {
     transform: scale(2);
     filter: blur(1px);
   }
 
-  80% {
+  60% {
     transform: scale(0);
     opacity: 0;
   }
@@ -12,14 +20,5 @@
   100% {
     transform: none;
     filter: none;
-    opacity: 1;
-  }
-}
-
-.ckd-zoom {
-  will-change: transform;
-
-  &:checked {
-    animation: zoom 0.4s cubic-bezier(0.075, 0.82, 0.765, 1.015);
   }
 }

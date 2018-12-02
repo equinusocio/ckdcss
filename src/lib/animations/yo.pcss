@@ -1,0 +1,11 @@
+@import '../../abstracts/_base.pcss';
+
+[data-ckd='yo'] {
+  transition: transform 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:checked {
+    transform:
+      rotate(-45deg)
+      translateZ(0);
+  }
+}
