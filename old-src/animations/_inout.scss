@@ -21,7 +21,7 @@
 .ckd-inout {
   will-change: transform;
 
-  &:checked {
+  &:checked, [aria-checked="true"] {
     animation: inout 0.5s linear;
   }
 }

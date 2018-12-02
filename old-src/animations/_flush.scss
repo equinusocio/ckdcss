@@ -21,7 +21,7 @@
 .ckd-flush {
   will-change: transform;
 
-  &:checked {
+  &:checked, [aria-checked="true"] {
     animation: flush 0.7s cubic-bezier(0.315, 0.96, 0.515, 0.99);
   }
 }

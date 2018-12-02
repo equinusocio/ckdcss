@@ -3,7 +3,8 @@
 [data-ckd='up'] {
   transition: all 0.15s linear;
 
-  &:checked {
+  &:checked,
+  [aria-checked='true'] {
     transform: translateY(-10px);
   }
 }

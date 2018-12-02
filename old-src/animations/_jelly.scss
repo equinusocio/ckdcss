@@ -35,7 +35,7 @@
 .ckd-jelly {
   transform-origin: center;
 
-  &:checked {
+  &:checked, [aria-checked="true"] {
     animation: jelly 0.8s;
   }
 }

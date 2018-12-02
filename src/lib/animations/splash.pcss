@@ -2,7 +2,8 @@
 @import '../../configs/_base.config';
 
 [data-ckd='splash'] {
-  &:checked {
+  &:checked,
+  [aria-checked='true'] {
     animation: splash 0.8s $decelerate-curve;
   }
 }

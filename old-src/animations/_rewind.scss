@@ -19,7 +19,7 @@
 .ckd-rewind {
   will-change: transform;
 
-  &:checked {
+  &:checked, [aria-checked="true"] {
     animation: rewind 0.25s cubic-bezier(0.03, 0.61, 0.17, 0.97);
     animation-iteration-count: 1;
   }

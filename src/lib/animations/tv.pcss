@@ -2,7 +2,8 @@
 @import '../../configs/_base.config';
 
 [data-ckd='tv'] {
-  &:checked {
+  &:checked,
+  [aria-checked='true'] {
     animation: tv 0.3s $decelerate-curve;
   }
 }

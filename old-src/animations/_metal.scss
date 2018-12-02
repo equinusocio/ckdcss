@@ -39,7 +39,7 @@
   display: inline-block;
   backface-visibility: visible !important;
 
-  &:checked {
+  &:checked, [aria-checked="true"] {
     animation: metal 1s;
   }
 }

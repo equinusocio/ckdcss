@@ -20,7 +20,7 @@
 .ckd-boing {
   will-change: transform;
 
-  &:checked {
+  &:checked, [aria-checked="true"] {
     animation: boing 0.2s ease-in-out;
     animation-iteration-count: 3;
   }

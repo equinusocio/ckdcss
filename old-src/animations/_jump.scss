@@ -21,7 +21,7 @@
 .ckd-jump {
   will-change: transform;
 
-  &:checked {
+  &:checked, [aria-checked="true"] {
     animation: jump 0.35s linear;
   }
 }

@@ -21,7 +21,7 @@
 }
 
 .ckd-boom {
-  &:checked {
+  &:checked, [aria-checked="true"] {
     animation: boom 0.8s;
   }
 }

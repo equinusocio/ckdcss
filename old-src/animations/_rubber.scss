@@ -30,7 +30,7 @@
 
 .ckd-rubber {
 
-  &:checked {
+  &:checked, [aria-checked="true"] {
     animation: rubber 0.5s;
     animation-direction: alternate;
   }

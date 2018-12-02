@@ -4,7 +4,8 @@
 [data-ckd='tada'] {
   will-change: transform;
 
-  &:checked {
+  &:checked,
+  [aria-checked='true'] {
     animation: tada 0.6s 1;
   }
 }

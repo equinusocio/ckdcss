@@ -4,7 +4,8 @@
 [data-ckd='yo'] {
   transition: transform 0.15s $standard-curve;
 
-  &:checked {
+  &:checked,
+  [aria-checked='true'] {
     transform:
       rotate(-45deg)
       translateZ(0);

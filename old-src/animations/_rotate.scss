@@ -1,7 +1,7 @@
 .ckd-rotate {
   transition: all 0.6s cubic-bezier(0.19, 1, 0.515, 1);
 
-  &:checked {
+  &:checked, [aria-checked="true"] {
     transform: rotate(360deg);
   }
 }

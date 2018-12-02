@@ -11,7 +11,7 @@
 .ckd-pulse {
   will-change: transform;
 
-  &:checked {
+  &:checked, [aria-checked="true"] {
     animation: pulse 0.8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
   }
 }
