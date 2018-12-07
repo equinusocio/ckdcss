@@ -1,11 +1,14 @@
-<img width="406px" src="https://cloud.githubusercontent.com/assets/10454741/18340843/8a8b0e18-75a7-11e6-99f2-e8f805070c33.jpg"><br/><img width="24px" alt="Google Chrome" src="https://cdn.rawgit.com/alrra/browser-logos/2109c114/src/chrome/chrome_48x48.png"><img width="24px" alt="Firefox" src="https://cdn.rawgit.com/alrra/browser-logos/2109c114/src/firefox/firefox_48x48.png"><img width="24px" alt="Safari" src="https://cdn.rawgit.com/alrra/browser-logos/2109c114/src/safari/safari_48x48.png" title="💩"><img width="24px" alt="Microsoft Edge" src="https://cdn.rawgit.com/alrra/browser-logos/2109c114/src/edge/edge_48x48.png" title="💩">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://travis-ci.org/equinusocio/ckdcss"><img alt="Berrpay" src="https://travis-ci.org/equinusocio/ckdcss.svg?branch=master"></a>
-<a href="http://packagequality.com/#?package=ckd-css"><img alt="Issues" src="http://npm.packagequality.com/shield/ckd-css.svg?colorB=80d4cd&style=flat-square"></a>
-<a href="https://github.com/equinusocio/ckdcss/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/equinusocio/ckdcss.svg?colorB=80d4cd&style=flat-square"></a>
-<a href="https://github.com/equinusocio/ckdcss/issues"><img alt="Usage" src="https://img.shields.io/github/issues/equinusocio/ckdcss.svg?colorB=80d4cd&style=flat-square"></a>
-<a href="https://beerpay.io/equinusocio/ckdcss"><img alt="Usage" src="https://beerpay.io/equinusocio/ckdcss/badge.svg?style=flat-square"></a>
-<a href="https://www.codacy.com/app/astorino-design/ckdcss?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=equinusocio/ckdcss&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/7a8522ef1e8f43baaeb5c5d4bc9d29ac"/></a>
+<img src="https://i.ibb.co/Ld6Q4pM/ckd.png">
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Downloads](https://img.shields.io/npm/dt/ckd-css.svg?style=for-the-badge&colorA=CD4A4A&colorB=B03737)](https://npmcharts.com/compare/ckd-css?minimal=true)
+&nbsp;
+[![Code Quality](https://img.shields.io/badge/code%20quality-A-43DC6E.svg?style=for-the-badge&colorA=000000&colorB=2CBD55)](https://www.codacy.com/app/astorino-design/ckdcss?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=equinusocio/ckdcss&amp;utm_campaign=Badge_Grade)
+
+<br>
+
+---
+
+<br>
 
 ## Why?
 
@@ -20,36 +23,47 @@ Source: [The Next Web](http://thenextweb.com/dd/2015/08/17/why-micro-interaction
 
 ## Installation
 
+### As dependency
+
+You can install **ckd-css** as node dependency by using [Npm](https://www.npmjs.com/package/ckd-css) or [Yarn](https://yarnpkg.com/).
+
+```bash
+npm install ckd-css --save
+```
+
+Then import the desired animation inside your component:
+
+```js
+import 'ckd-css/dist/pulse.css';
+```
+
+### From source
+
+If you are using PostCSS, you can also import animations from the `src/lib/animations` folder, but you need a specific [plugins configuration](https://github.com/equinusocio/ckdcss/blob/develop/config/postcss.config.js).
+
 ### From CDN
 
-If you want to use the library as-it just link the css from the CDN.
+You can link the animation you want from CDN
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/ckd-css/latest/ckd-css.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/ckd-css/dist/pulse.css">
 ```
 
-You can use a specific library version by replacing (inside the url) `latest` with the desired version:
+We also provide the full collection (all animations) in a single file, but we strongly recommend to link only the css you need.
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/ckd-css/1.2.0/ckd-css.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/ckd-css/dist/ckd.css">
 ```
-
-### As dependencies
-You can install **ckd-css** as dependency by using [Npm](https://www.npmjs.com/package/ckd-css) or [Bower](https://bower.io).
-
-```
-npm install ckd-css
-bower install ckd-css
-```
-
-Then link the `css` file from `node_modules` or `bower_components` in your html page `ckd-css/dist/ckd-css.min.css`
-
 
 ## Usage
 
-Just add your favourite animation class to the checkbox
+To activate the animation add the `data-ckd` attribute to your radio/checkbox html element.
+
 ```html
-<input type="checkbox" class="ckd-splash" />
+<input type="checkbox" data-ckd="splash" />
 ```
 
-Check the [DEMO PAGE](http://equinusocio.github.io/ckdcss )
+
+## Browser support
+
+<img width="24px" alt="Google Chrome" src="https://cdn.rawgit.com/alrra/browser-logos/2109c114/src/chrome/chrome_48x48.png">&nbsp;<img width="24px" alt="Firefox" src="https://cdn.rawgit.com/alrra/browser-logos/2109c114/src/firefox/firefox_48x48.png">&nbsp;<img width="24px" alt="Safari" src="https://cdn.rawgit.com/alrra/browser-logos/2109c114/src/safari/safari_48x48.png" title="💩">&nbsp;<img width="24px" alt="Microsoft Edge" src="https://cdn.rawgit.com/alrra/browser-logos/2109c114/src/edge/edge_48x48.png" title="💩">

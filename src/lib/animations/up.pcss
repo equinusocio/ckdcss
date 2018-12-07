@@ -1,10 +1,16 @@
+@import '../../configs/_variables.config';
 @import '../../configs/_base.config';
 
 [data-ckd='up'] {
-  transition: transform 0.15s linear;
-
   &:checked,
   &[aria-checked='true'] {
+    animation: up 0.15s $standard-curve 1;
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes up {
+  100% {
     transform: translateY(-10px);
   }
 }
