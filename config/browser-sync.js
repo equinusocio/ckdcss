@@ -1,7 +1,8 @@
 module.exports = {
-  files: './dist/ckd.css',
+  files: '/dist/ckd.css',
   server: {
     baseDir: 'test/',
+    index: "index.html",
     serveStaticOptions: {
       extensions: ['html', 'css']
     }

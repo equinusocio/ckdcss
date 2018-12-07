@@ -9,10 +9,11 @@
   "scripts": {
     "css:dev": "yarn postcss src/lib --config config/postcss.config.js --dir dist --ext css --verbose --watch",
     "css:build": "yarn postcss src/lib --config config/postcss.config.js --dir dist --ext css --verbose --no-map",
+    "css:test": "yarn cpx 'dist/ckd.css' test --watch",
     "serve": "yarn browser-sync start --config config/browser-sync.js",
     "clean": "yarn rimraf dist/**/*",
     "lint": "yarn stylelint src/**/*.pcss",
-    "dev": "yarn npm-run-all --parallel css:dev serve",
+    "dev": "yarn npm-run-all --parallel css:dev css:test serve",
     "build": "yarn npm-run-all clean lint css:build"
   },
   "keywords": [
@@ -42,6 +43,7 @@
   "devDependencies": {
     "autoprefixer": "9.3.1",
     "browser-sync": "2.26.3",
+    "cpx": "1.5.0",
     "cssnano": "4.1.7",
     "cssnano-preset-advanced": "4.0.5",
     "eslint": "5.9.0",
