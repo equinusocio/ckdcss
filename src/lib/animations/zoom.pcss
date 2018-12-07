@@ -1,0 +1,21 @@
+@import '../../configs/_variables.config';
+@import '../../configs/_base.config';
+
+[data-ckd='zoom'] {
+  &:checked,
+  &[aria-checked='true'] {
+    animation: zoom 0.4s $standard-curve;
+  }
+}
+
+@keyframes zoom {
+  50% {
+    transform: scale(2);
+    filter: blur(1px);
+  }
+
+  60% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,20 @@
+@import '../../configs/_variables.config';
+@import '../../configs/_base.config';
+
+[data-ckd='flush'] {
+  &:checked,
+  &[aria-checked='true'] {
+    animation: flush 0.7s $decelerate-curve 1;
+  }
+}
+
+@keyframes flush {
+  0% {
+    opacity: 1;
+  }
+
+  60% {
+    transform: rotate(4turn) scale(0);
+    opacity: 0;
+  }
+}

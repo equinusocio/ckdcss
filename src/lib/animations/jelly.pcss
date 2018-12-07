@@ -1,0 +1,47 @@
+@import '../../configs/_variables.config';
+@import '../../configs/_base.config';
+
+[data-ckd='jelly'] {
+  transform-origin: center;
+
+  &:checked,
+  &[aria-checked='true'] {
+    animation: jelly 0.8s $decelerate-curve 1;
+  }
+}
+
+@keyframes jelly {
+  0%,
+  11%,
+  100% {
+    transform: none;
+  }
+
+  22% {
+    transform: skewX(-12.5deg) skewY(-12.5deg);
+  }
+
+  33% {
+    transform: skewX(6.25deg) skewY(6.25deg);
+  }
+
+  44% {
+    transform: skewX(-3.12deg) skewY(-3.12deg);
+  }
+
+  55% {
+    transform: skewX(1.56deg) skewY(1.56deg);
+  }
+
+  66% {
+    transform: skewX(-0.78deg) skewY(-0.78deg);
+  }
+
+  77% {
+    transform: skewX(0.39deg) skewY(0.39deg);
+  }
+
+  88% {
+    transform: skewX(-0.19deg) skewY(-0.19deg);
+  }
+}

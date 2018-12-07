@@ -16,4 +16,4 @@ rules:
   no-unused-vars:
     - warn
 plugins:
-  - standard
+- standard

@@ -1,0 +1,33 @@
+@import '../../configs/_variables.config';
+@import '../../configs/_base.config';
+
+[data-ckd='omg'] {
+  &:checked,
+  &[aria-checked='true'] {
+    animation: omg 0.5s $standard-curve;
+  }
+}
+
+@keyframes omg {
+  59% {
+    transform: translateY(-4px);
+  }
+
+  60% {
+    transform:
+      translateX(-8px)
+      translateY(12px);
+  }
+
+  70% {
+    transform: translateY(-8px);
+  }
+
+  80% {
+    transform: translateX(8px);
+  }
+
+  90% {
+    transform: scale(0.4);
+  }
+}

@@ -1,0 +1,15 @@
+@import '../../configs/_variables.config';
+@import '../../configs/_base.config';
+
+[data-ckd='rotate'] {
+  &:checked,
+  &[aria-checked='true'] {
+    animation: rotate 0.6s 1 $decelerate-curve;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(-1turn);
+  }
+}

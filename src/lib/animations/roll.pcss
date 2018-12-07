@@ -1,0 +1,15 @@
+@import '../../configs/_variables.config';
+@import '../../configs/_base.config';
+
+[data-ckd='roll'] {
+  &:checked,
+  &[aria-checked='true'] {
+    animation: roll 0.5s $decelerate-curve 1;
+  }
+}
+
+@keyframes roll {
+  0% {
+    transform: rotateX(-1turn);
+  }
+}
