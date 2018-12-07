@@ -1,23 +1,23 @@
 @import '../../configs/_variables.config';
 @import '../../configs/_base.config';
 
-[data-ckd='rollin'] {
+[data-ckd='ghost'] {
   &:checked,
   &[aria-checked='true'] {
-    animation: rollin 0.7s $standard-curve;
+    animation: ghost 0.3s $decelerate-curve 1;
   }
 }
 
-@keyframes rollin {
+@keyframes ghost {
   0% {
+    transform: scaleY(0.2) translateY(100%);
+    filter: blur(20px);
     opacity: 0;
-    transform:
-      translate3d(-100%, 0, 0)
-      rotate3d(0, 0, 1, -120deg);
   }
 
   100% {
-    opacity: 1;
     transform: none;
+    filter: none;
+    opacity: 1;
   }
 }

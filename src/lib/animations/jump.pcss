@@ -1,0 +1,19 @@
+@import '../../configs/_variables.config';
+@import '../../configs/_base.config';
+
+[data-ckd='jump'] {
+  &:checked,
+  &[aria-checked='true'] {
+    animation: jump 0.35s $decelerate-curve;
+  }
+}
+
+@keyframes jump {
+  50% {
+    transform: scale(0.6) translateY(-10px);
+  }
+
+  100% {
+    transform: none;
+  }
+}

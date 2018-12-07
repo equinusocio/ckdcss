@@ -1,23 +1,25 @@
 @import '../../configs/_variables.config';
 @import '../../configs/_base.config';
 
-[data-ckd='rollin'] {
+[data-ckd='flush'] {
   &:checked,
   &[aria-checked='true'] {
-    animation: rollin 0.7s $standard-curve;
+    animation: flush 0.7s $decelerate-curve 1;
   }
 }
 
-@keyframes rollin {
+@keyframes flush {
   0% {
+    opacity: 1;
+  }
+
+  60% {
+    transform: rotate(4turn) scale(0);
     opacity: 0;
-    transform:
-      translate3d(-100%, 0, 0)
-      rotate3d(0, 0, 1, -120deg);
   }
 
   100% {
-    opacity: 1;
     transform: none;
+    opacity: 1;
   }
 }
