@@ -1,5 +1,4 @@
-last 2 major versions
-not ie <= 11
-not op_mini all
-not dead
-> 0.5%
+last 2 Chrome versions
+last 2 Firefox versions
+last 2 Safari versions
+last 2 Edge versions
