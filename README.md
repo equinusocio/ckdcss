@@ -18,7 +18,6 @@
 
 > As a designer, recognizing the invisibility of micro-interactions is just as important as designing them. You have to create something that feels human and accomplishes a task, making the life of a user easier. You also have to focus on a design that can work in a variety of environments and does not need any instruction or explanation.
 
-
 Source: [The Next Web](http://thenextweb.com/dd/2015/08/17/why-micro-interactions-are-the-secret-to-great-design/)
 
 ## Installation
@@ -62,7 +61,6 @@ To activate the animation add the `data-ckd` attribute to your radio/checkbox ht
 ```html
 <input type="checkbox" data-ckd="splash" />
 ```
-
 
 ## Browser support
 
