@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/Ld6Q4pM/ckd.png">
+<img width="600px" src="https://i.ibb.co/Ld6Q4pM/ckd.png">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Downloads](https://img.shields.io/npm/dt/ckd-css.svg?style=for-the-badge&colorA=CD4A4A&colorB=B03737)](https://npmcharts.com/compare/ckd-css?minimal=true)
 &nbsp;
