@@ -1,6 +1,6 @@
 {
   "extends": "stylelint-config-standard",
-  "ignoreFiles": ["**/*.js", "**/*.css"],
+  "ignoreFiles": ["**/*.js", "dist/*.css", "test/*.css"],
   "rules": {
     "color-hex-case": "upper",
     "max-empty-lines": 2,
