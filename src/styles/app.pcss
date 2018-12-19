@@ -1,4 +1,6 @@
-@import "./abstracts/_typography.pcss";
+@import "./abstracts/_font-face.pcss";
+@import "./_objects.pcss";
+@import "./_typography.pcss";
 @import-normalize;
 
 html {
@@ -7,8 +9,17 @@ html {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
+  padding: 0;
 }

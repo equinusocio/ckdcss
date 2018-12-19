@@ -3,10 +3,12 @@
 </template>
 
 <script>
+import Header from "@/components/Header.vue";
+
 export default {
   name: "home",
   components: {
-    Header: () => import("@/components/Header.vue")
+    Header
   }
 };
 </script>
