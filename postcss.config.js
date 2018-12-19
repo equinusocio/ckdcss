@@ -1,11 +1,6 @@
 module.exports = {
-  syntax: require("postcss-syntax"),
   plugins: {
-    stylelint: {
-      options: {
-        configFile: "./.stylelintrc"
-      }
-    },
+    "postcss-normalize": {},
     "postcss-easy-import": {
       extensions: ".pcss"
     },
