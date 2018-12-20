@@ -1,11 +1,12 @@
 <template>
   <section class="Navigator">
     <template v-for="animation in animations">
-      <Checkbox :animation="animation" :key="animation">{{animation}}</Checkbox>
+      <Checkbox :animation="animation" :key="animation">
+        {{ animation }}
+      </Checkbox>
     </template>
   </section>
 </template>
-
 
 <script>
 import Animations from "@/assets/animations.json";
@@ -16,12 +17,12 @@ export default {
   data() {
     return {
       animations: Animations
-    }
+    };
   },
   components: {
     Checkbox
   }
-}
+};
 </script>
 
 <style lang="postcss" scoped>
@@ -34,5 +35,3 @@ export default {
   padding: 40px;
 }
 </style>
-
-

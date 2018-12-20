@@ -1,9 +1,7 @@
 <template>
   <div>
-    <input type="checkbox" :data-ckd="animation" :id="animation">
-    <label :for="animation" class="Label">
-      <slot></slot>
-    </label>
+    <input type="checkbox" :data-ckd="animation" :id="animation" />
+    <label :for="animation" class="Label"> <slot></slot> </label>
   </div>
 </template>
 
@@ -19,18 +17,16 @@ export default {
   },
   head() {
     return {
-      title: {
-        inner: 'It will be a pleasure'
-      },
       link: [
-        { rel: "stylesheet", type:"text/css", href:`https://unpkg.com/ckd-css` }
+        {
+          rel: "stylesheet",
+          type: "text/css",
+          href: `https://unpkg.com/ckd-css`
+        }
       ]
-    }
-  },
-  mounted() {
-    console.log(this.animation)
+    };
   }
-}
+};
 </script>
 
 <style lang="postcss" scoped>
@@ -38,5 +34,3 @@ export default {
   text-transform: capitalize;
 }
 </style>
-
-
