@@ -1,16 +1,23 @@
 <template>
   <section class="Navigator">
-    <template v-for="animation in animations">
-      <Checkbox :animation="animation" :key="animation">
-        {{ animation }}
-      </Checkbox>
-    </template>
+    <Carousel>
+      <Slide
+        v-for="animation in animations"
+        :key="animation"
+        :perPage="1"
+        :mouse-drag="false"
+        class="Slide"
+      >
+        <Checkbox :animation="animation"> {{ animation }} </Checkbox>
+      </Slide>
+    </Carousel>
   </section>
 </template>
 
 <script>
 import Animations from "@/assets/animations.json";
 import Checkbox from "@/components/Checkbox.vue";
+import { Carousel, Slide } from "vue-carousel";
 
 export default {
   name: "navigator",
@@ -20,7 +27,9 @@ export default {
     };
   },
   components: {
-    Checkbox
+    Checkbox,
+    Carousel,
+    Slide
   }
 };
 </script>
@@ -33,5 +42,10 @@ export default {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.02);
   border-radius: 16px;
   padding: 40px;
+}
+
+.Slide {
+  background-color: red;
+  width: 200px;
 }
 </style>

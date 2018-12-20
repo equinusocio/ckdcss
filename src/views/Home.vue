@@ -18,8 +18,7 @@ export default {
 </script>
 
 <style lang="postcss" scoped>
-  .Header {
-    margin-bottom: 160px;
-  }
+.Header {
+  margin-bottom: 160px;
+}
 </style>
-
