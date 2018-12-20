@@ -24,13 +24,14 @@
     "modern-normalize": "0.5.0",
     "postcss": "7.0.7",
     "postcss-easy-import": "3.0.0",
-    "postcss-mixins": "6.2.0",
+    "postcss-mixins": "6.2.1",
     "postcss-normalize": "7.0.1",
     "postcss-preset-env": "6.5.0",
     "postcss-reporter": "6.0.0",
     "postcss-responsive-type": "1.0.0",
     "stylelint": "9.9.0",
     "stylelint-config-standard": "18.2.0",
+    "vue-head": "2.1.0",
     "vue-template-compiler": "2.5.17"
   }
 }

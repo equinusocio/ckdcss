@@ -9,9 +9,21 @@ module.exports = {
       stage: 0,
       autoprefixer: {
         grid: true
+      },
+      insertBefore: {
+        "nesting-rules": require("postcss-mixins")()
       }
     },
-    cssnano: { preset: "advanced" },
+    cssnano: {
+      preset: [
+        "advanced",
+        {
+          discardComments: {
+            removeAll: true
+          }
+        }
+      ]
+    },
     "postcss-reporter": { clearReportedMessages: true }
   }
 };

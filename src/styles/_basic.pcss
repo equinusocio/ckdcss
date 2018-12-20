@@ -1,0 +1,30 @@
+:root {
+  @mixin variables;
+}
+
+html {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+::selection {
+  color: #000;
+  -webkit-text-stroke: 1px;
+  background: var(--accent-color, #3dea6e);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
