@@ -7,7 +7,8 @@
     "prebuild": "yarn lint",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "precommit": "yarn lint"
+    "precommit": "yarn lint",
+    "deploy": "yarn build && yarn now dist"
   },
   "dependencies": {
     "vue": "2.5.17",
@@ -24,6 +25,7 @@
     "eslint": "5.8.0",
     "eslint-plugin-vue": "5.0.0",
     "modern-normalize": "0.5.0",
+    "now": "12.1.14",
     "postcss": "7.0.7",
     "postcss-easy-import": "3.0.0",
     "postcss-mixins": "6.2.1",

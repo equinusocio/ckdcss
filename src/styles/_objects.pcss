@@ -1,3 +1,24 @@
 img {
   display: block;
 }
+
+a {
+  background-color: #000;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-align: center;
+  border-radius: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  padding: 16px 24px;
+  outline: 0;
+
+  &:focus,
+  &:active {
+    box-shadow: 0 0 0 3px var(--accent-color, #3dea6e);
+    color: var(--accent-color, #3dea6e);
+  }
+}

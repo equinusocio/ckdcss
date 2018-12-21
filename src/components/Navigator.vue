@@ -1,5 +1,5 @@
 <template>
-  <section class="Navigator">
+  <div class="Navigator">
     <Carousel
       class="Carousel"
       easing="cubic-bezier(0.4, 0, 0.2, 1)"
@@ -23,7 +23,7 @@
         </label>
       </Slide>
     </Carousel>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -79,6 +79,7 @@ export default {
 .VueCarousel-navigation-button {
   font-size: 32px;
   font-weight: 900;
+  border-radius: 0;
   color: var(--accent-color, #3dea6e) !important;
 }
 
