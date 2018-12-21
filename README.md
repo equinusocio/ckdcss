@@ -64,6 +64,16 @@ To activate the animation add the `data-ckd` attribute to your radio/checkbox ht
 <input type="checkbox" data-ckd="splash" />
 ```
 
+If you are using custom checkboxes/radios you can use this library by defining the `aria-checked` attribute:
+
+```html
+<label class="CustomCheckbox" data-ckd="pulse" aria-checked="true">
+    <input type="checkbox">
+    Input label
+</label>
+```
+
+
 ## Browser support
 
 <img width="24px" alt="Google Chrome" src="https://cdn.rawgit.com/alrra/browser-logos/2109c114/src/chrome/chrome_48x48.png">&nbsp;<img width="24px" alt="Firefox" src="https://cdn.rawgit.com/alrra/browser-logos/2109c114/src/firefox/firefox_48x48.png">&nbsp;<img width="24px" alt="Safari" src="https://cdn.rawgit.com/alrra/browser-logos/2109c114/src/safari/safari_48x48.png" title="💩">&nbsp;<img width="24px" alt="Microsoft Edge" src="https://cdn.rawgit.com/alrra/browser-logos/2109c114/src/edge/edge_48x48.png" title="💩">
