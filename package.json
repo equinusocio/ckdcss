@@ -8,7 +8,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "precommit": "yarn lint",
-    "deploy": "yarn build && yarn now dist"
+    "deploy": "yarn build && yarn now dist",
+    "postdeploy": "cd dist; now alias"
   },
   "dependencies": {
     "vue": "2.5.17",
