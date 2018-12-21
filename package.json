@@ -3,9 +3,11 @@
   "version": "2.0.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve --fix",
+    "serve": "vue-cli-service serve",
+    "prebuild": "yarn lint",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "precommit": "yarn lint"
   },
   "dependencies": {
     "vue": "2.5.17",

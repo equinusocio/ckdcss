@@ -19,6 +19,6 @@ export default {
 
 <style lang="postcss" scoped>
 .Header {
-  margin-bottom: 160px;
+  margin-bottom: calc(100px + 5vh);
 }
 </style>
