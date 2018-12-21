@@ -47,13 +47,13 @@ If you are using PostCSS, you can also import animations from the `src/lib/anima
 You can link the animation you want from CDN
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/ckd-css/dist/pulse.css">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/ckd-css/dist/pulse.css">
 ```
 
 We also provide the full collection (all animations) in a single file, but we strongly recommend to link only the css you need.
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/ckd-css/dist/ckd.css">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/ckd-css/dist/ckd.css">
 ```
 
 ## Usage
