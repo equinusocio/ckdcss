@@ -1,0 +1,11 @@
+{
+  "name": "ckdcss",
+  "version": 2,
+  "alias": [
+    "ckdcss.now.sh"
+  ],
+  "scope": "equinusocio",
+  "github": {
+    "silent": true
+  }
+}
