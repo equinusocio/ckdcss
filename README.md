@@ -2,7 +2,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Downloads](https://img.shields.io/npm/dt/ckd-css.svg?style=for-the-badge&colorA=CD4A4A&colorB=B03737)](https://npmcharts.com/compare/ckd-css?minimal=true)
 &nbsp;
-[![Code Quality](https://img.shields.io/badge/code%20quality-A-43DC6E.svg?style=for-the-badge&colorA=000000&colorB=2CBD55)](https://www.codacy.com/app/astorino-design/ckdcss?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=equinusocio/ckdcss&amp;utm_campaign=Badge_Grade)
+&nbsp;
+[![Size](https://img.shields.io/bundlephobia/minzip/ckd-css.svg?style=for-the-badge&colorA=000000&colorB=1B84FF&label=gziped)](https://bundlephobia.com/result?p=ckd-css)
 
 <br>
 
@@ -45,13 +46,13 @@ If you are using PostCSS, you can also import animations from the `src/lib/anima
 You can link the animation you want from CDN
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/ckd-css/dist/pulse.css">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/ckd-css/dist/pulse.css">
 ```
 
 We also provide the full collection (all animations) in a single file, but we strongly recommend to link only the css you need.
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/ckd-css/dist/ckd.css">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/ckd-css/dist/ckd.css">
 ```
 
 ## Usage
@@ -61,6 +62,16 @@ To activate the animation add the `data-ckd` attribute to your radio/checkbox ht
 ```html
 <input type="checkbox" data-ckd="splash" />
 ```
+
+If you are using custom checkboxes/radios you can use this library by defining the `aria-checked` attribute:
+
+```html
+<label class="CustomCheckbox" data-ckd="pulse" aria-checked="true">
+    <input type="checkbox">
+    Input label
+</label>
+```
+
 
 ## Browser support
 
