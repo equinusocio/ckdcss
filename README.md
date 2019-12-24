@@ -2,9 +2,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Downloads](https://img.shields.io/npm/dt/ckd-css.svg?style=for-the-badge&colorA=CD4A4A&colorB=B03737)](https://npmcharts.com/compare/ckd-css?minimal=true)
 &nbsp;
-[![Code Quality](https://img.shields.io/badge/code%20quality-A-43DC6E.svg?style=for-the-badge&colorA=000000&colorB=2CBD55)](https://www.codacy.com/app/astorino-design/ckdcss?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=equinusocio/ckdcss&amp;utm_campaign=Badge_Grade)
 &nbsp;
-[![Code Quality](https://img.shields.io/bundlephobia/minzip/ckd-css.svg?style=for-the-badge&colorA=000000&colorB=1B84FF&label=gziped)](https://bundlephobia.com/result?p=ckd-css)
+[![Size](https://img.shields.io/bundlephobia/minzip/ckd-css.svg?style=for-the-badge&colorA=000000&colorB=1B84FF&label=gziped)](https://bundlephobia.com/result?p=ckd-css)
 
 <br>
 
