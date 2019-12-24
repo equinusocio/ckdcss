@@ -66,8 +66,10 @@ To activate the animation add the `data-ckd` attribute to your radio/checkbox ht
 If you are using custom checkboxes/radios you can use this library by defining the `aria-checked` attribute:
 
 ```html
-<label class="CustomCheckbox" data-ckd="pulse" aria-checked="true">
-    <input type="checkbox">
+<label for="CustomCheckbox">
+    <span class="CustomCheckbox" role="checkbox" data-ckd="pulse" id="CustomCheckbox" aria-checked="true">
+        <input type="checkbox">
+    </span>
     Input label
 </label>
 ```
