@@ -1,6 +1,6 @@
 {
   "name": "ckd-css",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A tiny set of micro interactions for your checkboxes and radios.",
   "main": "dist/ckd.css",
   "engines": {
